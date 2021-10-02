@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+	<div class="container">
+		<div class="heading">
+			<h1 class="heading__text">Quiz</h1>
+			<form id="start-question">
+				<p class="name__question">Hello. What is your name?</p>
+				<input type="text" name="question1" placeholder="Input name">
+				<p>What's your avatar?</p>
+				<div class="smiles" id="smile">
+					<label for="answer-img1">
+						<img class="item show" src="./images/image_part_001.jpg" alt="001">
+					</label>
+					<input type="radio" name="question2" id="answer-img1" checked>
+					<label for="answer-img2"> <img class="item" src="./images/image_part_002.jpg" alt="001"></label>
+					<input type="radio" name="question2" id="answer-img2">
+					<label for="answer-img3"> <img class="item" src="./images/image_part_003.jpg" alt="001"></label>
+					<input type="radio" name="question2" id="answer-img3">
+					<label for="answer-img4"> <img class="item" src="./images/image_part_004.jpg" alt="001"></label>
+					<input type="radio" name="question2" id="answer-img4">
+					<label for="answer-img5"> <img class="item" src="./images/image_part_005.jpg" alt="001"></label>
+					<input type="radio" name="question2" id="answer-img5">
+					<label for="answer-img6"> <img class="item" src="./images/image_part_006.jpg" alt="001"></label>
+					<input type="radio" name="question2" id="answer-img6">
+					<label for="answer-img7"> <img class="item" src="./images/image_part_007.jpg" alt="001"></label>
+					<input type="radio" name="question2" id="answer-img7">
+					<label for="answer-img8"> <img class="item" src="./images/image_part_008.jpg" alt="001"></label>
+					<input type="radio" name="question2" id="answer-img8">
+					<label for="answer-img9"> <img class="item" src="./images/image_part_009.jpg" alt="001"></label>
+					<input type="radio" name="question2" id="answer-img9">
+					<label for="answer-img10"> <img class="item" src="./images/image_part_010.jpg" alt="001"></label>
+					<input type="radio" name="question2" id="answer-img10">
+					<label for="answer-img11"> <img class="item" src="./images/image_part_011.jpg" alt="001"></label>
+					<input type="radio" name="question2" id="answer-img11">
+					<label for="answer-img12"> <img class="item" src="./images/image_part_012.jpg" alt="001"></label>
+					<input type="radio" name="question2" id="answer-img12">
+				</div>
+				<input type="submit" class="submit" value="OK">
+			</form>
+
+		</div>
+
+		<!-- Quiz section -->
+		<section id="box-questions" class="quiz">
+			<div class="quiz__heading">
+				<h2 class="quiz__heading-text">
+					<span class="name__user">Your are </span><span class="result"></span> right.
+				</h2>
+			</div>
+
+			<form class="quiz-form">
+				<div class="quiz-form__quiz active">
+					<p class="quiz-form__question">
+						1. Who's in the Simpson family? Homer, Marge, Maggie, Lisa, ...
+					</p>
+					<label class="quiz-form__ans" for="q11">
+						<input type="radio" name="q1" id="q11" value="A" checked />
+						<span class="design"></span>
+						<span class="text">Tomas</span>
+					</label>
+					<label class="quiz-form__ans" for="q12">
+						<input type="radio" name="q1" id="q12" value="B" />
+						<span class="design"></span>
+						<span class="text">Bart</span>
+					</label>
+					<label class="quiz-form__ans" for="q13">
+						<input type="radio" name="q1" id="q13" value="C" />
+						<span class="design"></span>
+						<span class="text">Joe</span>
+					</label>
+					<label class="quiz-form__ans" for="q14">
+						<input type="radio" name="q1" id="q14" value="D" />
+						<span class="design"></span>
+						<span class="text">Peter</span>
+					</label>
+				</div>
+
+				<div class="quiz-form__quiz">
+					<p class="quiz-form__question">
+						2. What is 2 plus 2?
+					</p>
+					<label class="quiz-form__ans" for="q21">
+						<input type="radio" name="q2" id="q21" value="A" checked />
+						<span class="design"></span>
+						<span class="text">7</span>
+					</label>
+					<label class="quiz-form__ans" for="q22">
+						<input type="radio" name="q2" id="q22" value="B" />
+						<span class="design"></span>
+						<span class="text">3</span>
+					</label>
+					<label class="quiz-form__ans" for="q23">
+						<input type="radio" name="q2" id="q23" value="C" />
+						<span class="design"></span>
+						<span class="text">2</span>
+					</label>
+					<label class="quiz-form__ans" for="q24">
+						<input type="radio" name="q2" id="q24" value="D" />
+						<span class="design"></span>
+						<span class="text">4</span>
+					</label>
+				</div>
+
+				<div class="quiz-form__quiz">
+					<p class="quiz-form__question">
+						3. What time of year is it?
+					</p>
+					<label class="quiz-form__ans" for="q31">
+						<input type="radio" name="q3" id="q31" value="A" checked />
+						<span class="design"></span>
+						<span class="text">Fall</span>
+					</label>
+					<label class="quiz-form__ans" for="q32">
+						<input type="radio" name="q3" id="q32" value="B" />
+						<span class="design"></span>
+						<span class="text">Winter</span>
+					</label>
+					<label class="quiz-form__ans" for="q33">
+						<input type="radio" name="q3" id="q33" value="C" />
+						<span class="design"></span>
+						<span class="text">Spring</span>
+					</label>
+					<label class="quiz-form__ans" for="q34">
+						<input type="radio" name="q3" id="q34" value="D" />
+						<span class="design"></span>
+						<span class="text">Summer</span>
+					</label>
+				</div>
+
+				<div class="quiz-form__quiz">
+					<p class="quiz-form__question">
+						4. How do I declare a variable in JS??
+					</p>
+					<label class="quiz-form__ans" for="q41">
+						<input type="radio" name="q4" id="q41" value="A" checked />
+						<span class="design"></span>
+						<span class="text">let item = 5;</span>
+					</label>
+					<label class="quiz-form__ans" for="q42">
+						<input type="radio" name="q4" id="q42" value="B" />
+						<span class="design"></span>
+						<span class="text">const item = 5;</span>
+					</label>
+					<label class="quiz-form__ans" for="q43">
+						<input type="radio" name="q4" id="q43" value="C" />
+						<span class="design"></span>
+						<span class="text">int item = 5;</span>
+					</label>
+					<label class="quiz-form__ans" for="q44">
+						<input type="radio" name="q4" id="q44" value="D" />
+						<span class="design"></span>
+						<span class="text">double item = 5;</span>
+					</label>
+				</div>
+
+				<div class="quiz-form__quiz">
+					<p class="quiz-form__question">
+						5. 0.1 + 0.2 (JS)?
+					</p>
+					<label class="quiz-form__ans" for="q51">
+						<input type="radio" name="q5" id="q51" value="A" checked />
+						<span class="design"></span>
+						<span class="text">0.3</span>
+					</label>
+					<label class="quiz-form__ans" for="q52">
+						<input type="radio" name="q5" id="q52" value="B" />
+						<span class="design"></span>
+						<span class="text">0.30</span>
+					</label>
+					<label class="quiz-form__ans" for="q53">
+						<input type="radio" name="q5" id="q53" value="C" />
+						<span class="design"></span>
+						<span class="text">0.30000000000004</span>
+					</label>
+					<label class="quiz-form__ans" for="q54">
+						<input type="radio" name="q5" id="q54" value="D" />
+						<span class="design"></span>
+						<span class="text">0.333333333</span>
+					</label>
+
+				</div>
+				<div class="quiz-form__quiz">
+					<p class="quiz-form__question">
+						5. console.log(NaN === NaN)?
+					</p>
+					<label class="quiz-form__ans" for="q61">
+						<input type="radio" name="q6" id="q61" value="A" checked />
+						<span class="design"></span>
+						<span class="text">true</span>
+					</label>
+					<label class="quiz-form__ans" for="q62">
+						<input type="radio" name="q6" id="q62" value="B" />
+						<span class="design"></span>
+						<span class="text">false</span>
+					</label>
+					<label class="quiz-form__ans" for="q63">
+						<input type="radio" name="q6" id="q63" value="C" />
+						<span class="design"></span>
+						<span class="text">error</span>
+					</label>
+
+				</div>
+				<div class="quiz-form__quiz">
+					<p class="quiz-form__question">
+						5. console.log(2+2+2)?
+					</p>
+					<label class="quiz-form__ans" for="q71">
+						<input type="radio" name="q7" id="q71" value="A" checked />
+						<span class="design"></span>
+						<span class="text">8</span>
+					</label>
+					<label class="quiz-form__ans" for="q72">
+						<input type="radio" name="q7" id="q72" value="B" />
+						<span class="design"></span>
+						<span class="text">6</span>
+					</label>
+					<label class="quiz-form__ans" for="q73">
+						<input type="radio" name="q7" id="q73" value="C" />
+						<span class="design"></span>
+						<span class="text">4</span>
+					</label>
+					<label class="quiz-form__ans" for="q73">
+						<input type="radio" name="q7" id="q73" value="D" />
+						<span class="design"></span>
+						<span class="text">12</span>
+					</label>
+					<label class="quiz-form__ans" for="q73">
+						<input type="radio" name="q7" id="q73" value="E" />
+						<span class="design"></span>
+						<span class="text">7</span>
+					</label>
+				</div>
+				<!-- <input class="submit my" type="submit" value="Submit" /> -->
+			</form>
+		</section>
+	</div>
+	<script src="./script.js"></script>
+</body>
+
+</html>
